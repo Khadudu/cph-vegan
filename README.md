@@ -14,6 +14,6 @@ Clown the code: Install all the dependencies as cited in the package.json file. 
   <li>http://localhost:3000/subscribers returns the entire users in the database</li>
 </ul>
 
-## The app still lacks user authentification, further APIs and chat functionality which will be added in the next week.
+The app still lacks user authentification, further APIs and chat functionality which will be added in the next week.
 
 
