@@ -6,7 +6,7 @@ The post request allows users to sign up via a form using their name, email addr
 
 <h2>How to run the app<h2>
 
-Clown the code: Install all the dependencies as cited in the package.json file. To test the communication between the app and the mongodb, install a local mongodb community version, create a database and replace the line "mongodb://localhost:27017/recipe_db" in the main.js file with the created db in your local database. Send requests from the browser to test the various get and post requests: 
+<p>Clown the code: Install all the dependencies as cited in the package.json file. To test the communication between the app and the mongodb, install a local mongodb community version, create a database and replace the line "mongodb://localhost:27017/recipe_db" in the main.js file with the created db in your local database. Send requests from the browser to test the various get and post requests: </p>
 
 <ul>
   <li>http://localhost:3000/  returns the static home page with information about the cph-vegan app</li>
@@ -14,6 +14,6 @@ Clown the code: Install all the dependencies as cited in the package.json file. 
   <li>http://localhost:3000/subscribers returns the entire users in the database</li>
 </ul>
 
-The app still lacks user authentification, further APIs and chat functionality which will be added in the next week.
+<p>The app still lacks user authentification, further APIs and chat functionality which will be added in the next week.</p>
 
 
