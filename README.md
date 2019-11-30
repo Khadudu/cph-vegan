@@ -9,9 +9,9 @@ The post request allows users to sign up via a form using their name, email addr
 Clown the code: Install all the dependencies as cited in the package.json file. To test the communication between the app and the mongodb, install a local mongodb community version, create a database and replace the line "mongodb://localhost:27017/recipe_db" in the main.js file with the created db in your local database. Send requests from the browser to test the various get and post requests:
 
 <ul>
-  <li>http://localhost:3000/  returns the static home page with information about the cph-vegan app</li>
-  <li>http://localhost:3000/contact returns the form that users can sign up with; with name, address and zipcode</li>
-  <li>http://localhost:3000/subscribers returns the entire users in the database</li>
+  <li>http://localhost:3000/  -  returns the static home page with information about the cph-vegan app</li>
+  <li>http://localhost:3000/contact  -  returns the form that users can sign up with; with name, address and zipcode</li>
+  <li>http://localhost:3000/subscribers  -  returns the entire users in the database</li>
 </ul>
 
 The app still lacks user authentification, further APIs and chat functionality which will be added in the next week.
